@@ -10,8 +10,8 @@ This section covered:
 - [x] Outputting Dynamic Content
 - [x] Official Pug Docs
 - [x] Converting HTML Files to Pug
-- [ ] Adding a Layout
-- [ ] Finishing the Pug Template
+- [x] Adding a Layout
+- [x] Finishing the Pug Template
 - [ ] Working with Handlebars
 - [ ] Converting our Project to Handlebars
 - [ ] Adding the Layout to Handlebars
