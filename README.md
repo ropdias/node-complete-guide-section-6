@@ -9,7 +9,7 @@ This section covered:
 - [x] Installing & Implementing Pug
 - [x] Outputting Dynamic Content
 - [x] Official Pug Docs
-- [ ] Converting HTML Files to Pug
+- [x] Converting HTML Files to Pug
 - [ ] Adding a Layout
 - [ ] Finishing the Pug Template
 - [ ] Working with Handlebars
