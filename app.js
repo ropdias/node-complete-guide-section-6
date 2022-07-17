@@ -22,8 +22,6 @@ app.set("view engine", "hbs");
 // The default is process.cwd() [main directory where you called this command] and /views
 // But you can set any folder you want here to search for the views
 app.set("views", "views");
-// app.set("view engine", "pug");
-// app.set("views", "views");
 
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
@@ -36,7 +34,7 @@ app.use(shopRoutes);
 
 app.use((req, res, next) => {
   // res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
-  res.status(404).render("404", { pageTitle: "Page Not Found", layout: false }); // Using layout false here to not render any layout
+  res.status(404).render("404", { pageTitle: "Page Not Found"}); // Using layout false here to not render any layout
 });
 
 app.listen(3000);

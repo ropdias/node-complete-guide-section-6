@@ -13,8 +13,9 @@ router.get("/", (req, res, next) => {
     prods: products,
     pageTitle: "Shop",
     path: "/",
-    layout: false,
     hasProducts: products.length > 0,
+    activeShop: true,
+    productCSS: true,
   });
   // console.log('shop.js', adminData.products);
   // res.sendFile(path.join(rootDir, "views", "shop.html"));
