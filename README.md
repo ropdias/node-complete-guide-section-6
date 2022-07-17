@@ -15,7 +15,7 @@ This section covered:
 - [x] Working with Handlebars
 - [x] Converting our Project to Handlebars
 - [x] Adding the Layout to Handlebars
-- [ ] Working with EJS
+- [x] Working with EJS
 - [ ] Working on the Layout with Partials
 
 
