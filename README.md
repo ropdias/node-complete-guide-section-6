@@ -16,7 +16,7 @@ This section covered:
 - [x] Converting our Project to Handlebars
 - [x] Adding the Layout to Handlebars
 - [x] Working with EJS
-- [ ] Working on the Layout with Partials
+- [x] Working on the Layout with Partials
 
 
 More info: https://www.udemy.com/course/nodejs-the-complete-guide/
