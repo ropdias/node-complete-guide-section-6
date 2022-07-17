@@ -5,6 +5,13 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+// Here we can tell express that we want to compile dynamic template with the pug engine
+// and where to find these templates:
+app.set('view engine', 'pug');
+// The default is process.cwd() [main directory where you called this command] and /views
+// But you can set any folder you want here to search for the views
+app.set('views', 'views') 
+
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 

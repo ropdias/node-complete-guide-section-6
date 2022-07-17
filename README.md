@@ -5,8 +5,8 @@ Examples from the **"Section 6: Working with Dynamic Content & Adding Templating
 This section covered:
 
 - [x] Sharing Data Across Requests & Users
-- [ ] Templating Engines - An Overview
-- [ ] Installing & Implementing Pug
+- [x] Templating Engines - An Overview
+- [x] Installing & Implementing Pug
 - [ ] Outputting Dynamic Content
 - [ ] Official Pug Docs
 - [ ] Converting HTML Files to Pug
