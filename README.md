@@ -12,7 +12,7 @@ This section covered:
 - [x] Converting HTML Files to Pug
 - [x] Adding a Layout
 - [x] Finishing the Pug Template
-- [ ] Working with Handlebars
+- [x] Working with Handlebars
 - [ ] Converting our Project to Handlebars
 - [ ] Adding the Layout to Handlebars
 - [ ] Working with EJS
