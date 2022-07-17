@@ -13,7 +13,7 @@ This section covered:
 - [x] Adding a Layout
 - [x] Finishing the Pug Template
 - [x] Working with Handlebars
-- [ ] Converting our Project to Handlebars
+- [x] Converting our Project to Handlebars
 - [ ] Adding the Layout to Handlebars
 - [ ] Working with EJS
 - [ ] Working on the Layout with Partials

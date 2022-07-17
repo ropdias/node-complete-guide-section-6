@@ -22,6 +22,8 @@ app.set("view engine", "hbs");
 // The default is process.cwd() [main directory where you called this command] and /views
 // But you can set any folder you want here to search for the views
 app.set("views", "views");
+// app.set("view engine", "pug");
+// app.set("views", "views");
 
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
