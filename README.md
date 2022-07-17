@@ -7,8 +7,8 @@ This section covered:
 - [x] Sharing Data Across Requests & Users
 - [x] Templating Engines - An Overview
 - [x] Installing & Implementing Pug
-- [ ] Outputting Dynamic Content
-- [ ] Official Pug Docs
+- [x] Outputting Dynamic Content
+- [x] Official Pug Docs
 - [ ] Converting HTML Files to Pug
 - [ ] Adding a Layout
 - [ ] Finishing the Pug Template
