@@ -1,0 +1,17 @@
+<%- include('includes/assignment4-head.ejs') %>
+</head>
+
+<body>
+  <%- include('includes/assignment4-navigation.ejs') %>
+  <main>
+    <% if (users.length > 0) { %>
+      <ul>
+        <% for (let user of users) { %>
+        <li><%= user.user %></li>
+        <% } %>
+      </ul>
+    <% } else { %>
+    <h1>No User Found!</h1>
+    <% } %>
+  </main>
+<%- include('includes/assignment4-end.ejs') %>

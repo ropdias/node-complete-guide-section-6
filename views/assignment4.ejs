@@ -1,0 +1,15 @@
+<%- include('includes/assignment4-head.ejs') %>
+</head>
+
+<body>
+  <%- include('includes/assignment4-navigation.ejs') %>
+  <main>
+    <form action="/add-user" method="POST">
+      <div class="form-control">
+        <label for="user">Enter your name:</label>
+        <input type="text" name="user" id="user" />
+        <button class="btn" type="submit">Add User</button>
+      </div>     
+    </form>
+  </main>
+<%- include('includes/assignment4-end.ejs') %>
