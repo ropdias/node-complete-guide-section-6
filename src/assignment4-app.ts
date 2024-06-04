@@ -1,14 +1,13 @@
-const path = require('path');
+import path from 'path';
 
-const express = require('express');
-const bodyParser = require('body-parser');
+import express from 'express';
+import bodyParser from 'body-parser';
+import { router as assignmentRoutes } from './routes/assignment4';
 
 const app = express();
 
 app.set('view engine', 'ejs');
-app.set('views', 'views');
-
-const assignmentRoutes = require('./routes/assignment4');
+app.set('views', 'src/views');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));

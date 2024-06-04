@@ -1,14 +1,9 @@
-const path = require('path');
-
-const express = require('express');
-
-const rootDir = require('../util/path');
-const adminData = require('./admin');
+import express, { Request, Response, NextFunction } from 'express';
+import { products } from './admin';
 
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
-  const products = adminData.products;
+router.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.render('shop', {
     prods: products,
     pageTitle: 'Shop',
@@ -17,8 +12,7 @@ router.get('/', (req, res, next) => {
     activeShop: true,
     productCSS: true,
   });
-  // console.log('shop.js', adminData.products);
   // res.sendFile(path.join(rootDir, "views", "shop.html"));
 });
 
-module.exports = router;
+export { router };

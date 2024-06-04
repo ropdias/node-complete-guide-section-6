@@ -1,11 +1,15 @@
-const express = require('express');
+import express, { Request, Response, NextFunction } from 'express';
 
 const router = express.Router();
 
-const users = [];
+interface User {
+  user: string;
+}
+
+const users: User[] = [];
 
 // / => GET
-router.get('/', (req, res, next) => {
+router.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.render('assignment4', {
     pageTitle: 'Enter your name',
     path: '/',
@@ -13,13 +17,13 @@ router.get('/', (req, res, next) => {
 });
 
 // /add-user => POST
-router.post('/add-user', (req, res, next) => {
+router.post('/add-user', (req: Request, res: Response, next: NextFunction) => {
   users.push({ user: req.body.user });
   res.redirect('/users');
 });
 
 // /users => GET
-router.get('/users', (req, res, next) => {
+router.get('/users', (req: Request, res: Response, next: NextFunction) => {
   res.render('assignment4-users', {
     users: users,
     pageTitle: 'Users',
@@ -27,4 +31,4 @@ router.get('/users', (req, res, next) => {
   });
 });
 
-module.exports = router;
+export { router };
